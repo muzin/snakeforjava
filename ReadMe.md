@@ -48,7 +48,7 @@
 ### SnakeKeyEvent
 贪吃蛇键盘监听事件对象，用于监听方向键，改变蛇的走向。
 
-### thread
+## thread
 
 ### SnakeDrawThread
 贪吃蛇绘制线程，根据所提供的蛇，食物的信息，将蛇，食物绘制到页面上。

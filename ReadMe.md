@@ -1,5 +1,24 @@
 # java版 贪吃蛇 for 教学
 
+# 目录结构
+```
+├── context
+│   └── SnakeContext.java                       贪吃蛇上下文
+├── entity
+│   ├── Food.java                               食物对象
+│   ├── SnakeBody.java                          蛇身体对象
+│   ├── Snake.java                              蛇对象
+│   └── SnakeMap.java                           贪吃蛇地图对象
+├── gui
+│   ├── event
+│   │   └── SnakeKeyEvent.java                  贪吃蛇键盘事件处理
+│   └── SnakeFrame.java                         贪吃蛇界面
+├── Main.java                                   主程序
+└── thread  
+    ├── SnakeDrawThread.java                    贪吃蛇绘制线程
+    └── SnakeRunThread.java                     贪吃蛇运行线程
+```
+
 
 ## context
 
@@ -36,4 +55,3 @@
 
 ### SnakeRunThread
 贪吃蛇运行线程，定时改变蛇的坐标信息，  如果蛇吃到食物，改变食物的位置，添加蛇身长度。
- 
